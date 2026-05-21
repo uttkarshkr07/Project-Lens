@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Dataset and data files
+data/*.csv
+data/*.json
+data/*.zip
+
+# Environment variables (contains API keys)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# YOLO model weights (downloaded automatically on first run)
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
